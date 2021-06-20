@@ -1,0 +1,164 @@
+body{
+    padding:0px;
+    margin:0px;
+ 
+    background-color: #241218;
+}
+li a {
+    color:#fcb500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover{
+    color:yellow;
+}
+.navbar-brand{
+    color:#fcb500;
+    border:4px solid #f32170;
+    padding:1%;
+
+}
+.navbar-brand:hover{
+    color:#fcb500;
+}
+.header h2{
+    padding:10%;
+    text-align: center;
+    color:white;
+}
+hr{
+    background-color: white;
+   border-top:0.5px;
+   border-top: 0.5px solid rgba(225,225,225,.1);
+}
+/* works */
+.pic {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .pic:hover .image {
+    opacity: 0.3;
+  }
+  
+  .pic:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+   border:2px solid #f32170;
+   border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .work{
+      background-color:#44222E;
+      width:70vw;margin:auto;
+  }
+  .pic a{
+      color:#fff;
+       font-size: 16px;
+       font-weight: bolder;
+      text-decoration: none;
+      border-width: 0px;
+  }
+  p.desc{
+      padding:40px 0 60px 0 ;
+      width:70%;
+      margin:auto;
+      color:white;
+      text-transform: uppercase;
+  }
+  .footer button{
+      background-color: #44222e;
+      border:2px solid #f32170;
+      text-align: center;
+      margin-bottom:10%;
+      
+  }
+  .footer a{
+    color:white;
+    text-decoration: none;
+  }
+  .footer button:hover{
+    background-color:#241218;
+  }
+  .footer{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .footer h2{
+      text-align: center;
+      color:white;
+      padding-top: 10%;
+
+  }
+  /* contact */
+  .socialicon 
+   {
+       display:flex;
+       justify-content: center;
+        margin-top:30px;
+   }
+   .icon{
+       width:80px;
+       height:80px;
+       box-shadow:0 0 5px 10px rgba(0,0,0,0.05);
+       margin:0 30px;
+       text-align:center;
+       line-height:80px;
+       font-size:30px;
+       text-decoration: none;
+       color:#fff;
+       border-radius: 50%;
+       position:relative;
+       overflow:hidden;
+       padding-top:22px;
+       
+
+   }
+    .icon:after{
+       content:"";
+       width:80px;
+       height:80px;
+       z-index: -1;
+       position:absolute;
+       bottom:-80px;
+       left:0;
+       background:linear-gradient(to bottom,#ff6b08,#f32170);
+       transition:0.2s;
+
+   }
+   .icon:hover{
+color:#fff;
+
+   }
+   .icon:hover::after{
+       bottom:0;
+   }
+   .contact h2{
+       color:#fff;
+       text-align:center;
+
+   }
+  
