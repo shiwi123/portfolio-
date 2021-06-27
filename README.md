@@ -6,7 +6,9 @@
 
   [![Website](https://img.shields.io/badge/-Website-blue)](https://shiwi123.github.io/portfolio-/)
 
-
+<h2 align="center">
+	<img src="https://github.com/shiwi123/portfolio-/blob/master/ezgif.com-gif-maker.gif" alt="portfolio" width="600px"/>
+</h2>
  ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
