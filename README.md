@@ -27,8 +27,9 @@ $ cd portfolio
 
 # Remove current origin repository
 $ git remote remove origin
-## Need of portfolio for a developer ☝️
 ```
+## Need of portfolio for a developer ☝️
+
 - Professional way To showcase your work
 - Increases your visibility and online presence
 - Shows you’re more than just a resume
