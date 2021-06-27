@@ -37,7 +37,7 @@ body {
 /* #252934 */
 .header {
     background-color:#252934;
-  background-image: url("..images/bg.png");
+  background-image: url("../images/bg.png");
   background-size: cover;
   background-position:  center;
     
