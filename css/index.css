@@ -37,8 +37,10 @@ body {
 /* #252934 */
 .header {
     background-color: #553841;
-  background: url("./images/bg.png") center
-    center/cover;
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-position:  center;
+    
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,8 +170,11 @@ div.self {
 /* /skills */
 /* works */
 .works {
-  background: url("/images/bg.png") center
-  center/cover;
+  /* background: url("/images/bg.png") center
+  center/cover; */
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-position:  center;
   padding-bottom: 30px;
 }
 .imgbox {
@@ -318,7 +323,10 @@ a:hover::after {
   padding: 20px 0;
 }
 .footer {
-  background: url("/images/bg.png") center
-  center/cover;
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-position:  center;
+  /* background: url("/images/bg.png") center
+  center/cover; */
  
 }
