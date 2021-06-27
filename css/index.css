@@ -37,7 +37,7 @@ body {
 /* #252934 */
 .header {
     background-color: #553841;
-  background: url("/images/bg.png") center
+  background: url("./images/bg.png") center
     center/cover;
 
   background-repeat: no-repeat;
