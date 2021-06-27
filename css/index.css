@@ -37,7 +37,7 @@ body {
 /* #252934 */
 .header {
     background-color: #553841;
-  background: url(http://findmatthew.com/style/../img/filler.png) center
+  background: url("/images/bg.png") center
     center/cover;
 
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@ div.self {
 /* /skills */
 /* works */
 .works {
-  background: url(http://findmatthew.com/style/../img/filler.png) center
+  background: url("/images/bg.png") center
   center/cover;
   padding-bottom: 30px;
 }
@@ -318,7 +318,7 @@ a:hover::after {
   padding: 20px 0;
 }
 .footer {
-  background: url(http://findmatthew.com/style/../img/filler.png) center
+  background: url("/images/bg.png") center
   center/cover;
  
 }
