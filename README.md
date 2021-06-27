@@ -8,9 +8,10 @@
 
 <h2 align="center">
 	<img src="https://github.com/shiwi123/portfolio-/blob/master/ezgif.com-gif-maker.gif" alt="portfolio" width="600px"/>
-</h2>
+   </h2>
+   <br>
  ## Features
-
+ 
 ⚡️ Modern UI Design + Reveal Animations\
 ⚡️ One Page Layout\
 ⚡️ Styled with Bootstrap v4.3\
@@ -35,3 +36,9 @@ $ git remote remove origin
 - Professional way To showcase your work
 - Increases your visibility and online presence
 - Shows you’re more than just a resume
+
+
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](license.txt) file for details
