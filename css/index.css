@@ -1,291 +1,324 @@
- /* header */
- body{
-     padding:0;
-     margin:0;
-     background-color:#241218 important;
- }
- .head{
-     padding:2.5em;
- }
- 
- .name,.contact{
-   
-    font-size:1.2em;
-    font-weight: bolder;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-   
-   
-    background: linear-gradient(
-        to right, #f32170, #ff6b08
-         );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
-    
-    
- }
- 
- .contact:hover{
-     color:#34656d;
- }
-.logo{
-    color:#fff;
-    background-color: #241218;
-
-}
-   
-   
-    
- 
- 
- .header{
-     
-     
-     background-color:#241218;
-   
+/* header */
+body {
+  padding: 0;
+  margin: 0;
   
-     
-     max-width:100vw;
-     max-height: 100vh;
-     
- }
- .desc1{
-    font-size: 30px;
-    font-weight:bolder;
-   
-        
-    background: linear-gradient(
-        to right, #f32170, #ff6b08
-         );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-     text-align: center;
-     padding-top: 10%;
-    
-
-     
- }
- .desc2{
-     text-align:justify;
-     max-width: 60%;
-     margin: auto;
-     padding-bottom:15%;
-     margin-top:-1em;
-     color:#fff;
-    
-    letter-spacing: 0.5px;
-     font-weight:medium;
-     text-shadow:0 0 5px 10px rgba(0,0,0,0.05);
-     
-     overflow:visible;
- }
- 
- /* about */
- div.self{
-    background-color:#44222E;
-    display:flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    
 }
-
-.pic{
-
-    max-width:100%;
-}
- .intro1,.intro2{
-    
- padding:0px 30px;
-
-font-weight: bolder;
- 
- background: linear-gradient(
-    to right, #f32170, #ff6b08
-     );
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
- 
- }
- .about{
-     background-color: #241218;
- }
- .self .intro3{
-    padding:0px 30px;
-    margin:30px 0px; 
-    line-height: 1.4545454545em;
-    letter-spacing: 0.5px;
-    color:#fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-align:left;
- }
- /* /about */
- /* skills */
- .skills{background-color: #241218;}
- .skill{
-   width:10%;
-   height:10%;
- }
- .skill:hover{
-     opacity: 0.5;
- }
-
- .skills h1,.works h1{
-     
-     text-align: center;
-     color:#ff6b08;}
- 
-
-
- 
- .box{
-     background-color:#44222e;
-     border:1px solid #241218;
- }
- .box:hover{
-     opacity: 0.8;
- }
- .skills p {
-     font-size:0.5em;
-      color: #fff;
-     text-align: center;
-     padding: 1% 0;
- }
- /* /skills */
- /* works */
- .works{
-     background-color: #241218;
- }
- .imgbox{
-     padding:2em;
-     border-radius: 10px;
-     background-color:#553841;
- }
- .media{
-     background-color: #44222e;
-     border:#241218 solid 2px;
-     width:100%;
- }
-.media-body{
-    width:100%;
-    overflow:hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
- .media-body h4{
-     text-align:center;
-     color:#fff;
-     width:100%;
- }
- .media-body button{
-     background-image:linear-gradient(to right,#fcb500,#eb3d7b);
-     border-width: 0px;
-     border-radius:20px;
-     width:50%;
-     margin:2em  0;
-     height:fit-content;
-
-    
-     
- }
- .media-body button:hover{
-     opacity: 0.8;
- }
- /* /works */
- /* contacts */
- .socialicons{
-     display: flex;
-     justify-content: space-evenly;
-     padding:30px 0;
-     background-color: #553841;
-     border:1px solid#241218;
- }
- .socialicons .icons{
-  width:60px;
-  height:60px;
+.head {
+  padding: 2.5em;
   
-  box-shadow:0 0 5px 10px rgba(0,0,0,0.05);
-  text-decoration:none;
-  border-radius:50%;
-  /* color:#fff; */
-  text-align:center;
-  padding:17px 0;
-  color:fff;
-  line-height:80px;
+}
+
+.name,
+.contact {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: serif;
+ 
+  background: linear-gradient(to right, #f32170, #ff6b08);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+.contact:hover {
+  color: #34656d;
+}
+.logo {
+  color: #fff;
+  padding:  50px 30px;
+  border:3px dotted #fff;
+  background-color:#999792;
+  border-radius: 50%;
+}
+.logo img{
+    width:70px;
+}
+/* #252934 */
+.header {
+    background-color: #553841;
+  background: url(http://findmatthew.com/style/../img/filler.png) center
+    center/cover;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.desc1 {
+  font-size: 35px;
+  font-weight: bolder;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #f32170, #ff6b08);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  padding-top: 8%;
+}
+.desc2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 15%;
+  
+  color: #fff;
+
+  
+  font-weight: medium;
+  text-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.05);
+
+  overflow: visible;
+}
+@media only screen and (max-width: 700px) {
+  .desc2,
+  .desc1 {
+    max-width: 100%;
+  }
+}
+
+/* about */
+div.self {
+  background-color:#999792;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.pic {
+  max-width: 100%;
+}
+.intro1,
+.intro2 {
+  padding: 0px 30px;
+
+  font-weight: bolder;
+
+  background: linear-gradient(to right, #f32170, #ff6b08);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.about {
+  background-color:#faf7eb;
+}
+.self .intro3 {
+  padding: 0px 30px;
+  margin: 30px 0px;
+  line-height: 1.4545454545em;
+  letter-spacing: 0.5px;
+  color:#252934;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: medium;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* /about */
+/* skills */
+.skills {
+  background-color:#252934;
+}
+.skill {
+  width: 15%;
+  height: 15%;
+}
+.skill:hover {
+  opacity: 0.5;
+}
+
+.heading {
+  text-align: center;
+  color:white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width:fit-content;
+  margin: auto;
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#subheading{
+  text-align: center;
+  color:#ff6b08;
+  font-size:25px;
+  text-transform: uppercase;
+  font-family: serif;
+  padding-top:50px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ff6b08;
+  width:fit-content;
+  margin:auto;
+  
+}
+
+.box {
+  background-color: #252934;
+  border: 0.5px solid #252525;
+}
+.box:hover {
+  opacity: 0.8;
+}
+.skills p {
+  font-size: 0.5em;
+  color: #fff;
+  text-align: center;
+  padding: 1% 0;
+}
+/* /skills */
+/* works */
+.works {
+  background: url(http://findmatthew.com/style/../img/filler.png) center
+  center/cover;
+  padding-bottom: 30px;
+}
+.imgbox {
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #303543;
+}
+.media {
+  background-color:#999792 ;
+  border: #241218 solid 2px;
+  width: 100%;
+}
+.media-body {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.media-body h4 {
+  text-align: center;
+  color:#252934;
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .media-body h4,.media-body button{
+    width:fit-content;
+  }
+}
+
+.media-body button {
+   background-color: #252934;
+  border-width: 0px;
+  border-radius: 20px;
+  width: 50%;
+  margin: 2em 0;
+  height:auto;
+}
+.media-body button:hover,.media-body button:active {
+  
+  background-color:#303543;
+}
+/* /works */
+/* contacts */
+.socialicons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  background-color: #252934;
+  
+}
+.contactrow{
+  padding-left:0px;
+}
+.socialicons .icons {
+  width: 60px;
+  height: 60px;
+
+  box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  border-radius: 50%;
+  
+  text-align: center;
+  padding: 17px 0;
+  color:#252934;
+  line-height: 80px;
   font-size: 30px;
-  background-color:#44222e;
-  position:relative;
-  overflow:hidden;
+  background-color:#999792;
+  position: relative;
+  overflow: hidden;
+}
+.icons:after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  background: linear-gradient(to bottom, #fcb500, #eb3d7b);
+  transition: 0.2s;
+  opacity: 0.9;
+}
+.socialicons .icons:hover {
+  color:#fff;
+}
+a:hover::after {
+  bottom: 0;
+}
+.contacts #contacthead{
+  text-align:center;
+  color:#999792;
+  padding-top: 10%;
+  padding-bottom: 50px;
+  margin-bottom: -10px;
+  background-color: #252934;
+  font-family: Georgia, 'Times New Roman', Times, serif;
  
+  font-size:45px;
   
- }
- .icons:after{
-     content:'';
-     width:60px;
-     height:60px;
-     z-index:0;
-     position:absolute;
-     left:0;
-     bottom:-80px;
-     background: linear-gradient(to bottom,#fcb500,#eb3d7b);
-     transition:0.2s;
-     opacity:0.9;
- }
- .socialicons .icons:hover{
-    color:#fff;
+
   
- }
- a:hover::after{
-     bottom:0;
-   
- }
- .contacts h2{
-     text-align:center;
-     color:white;
-     padding:20px 0;
- }
- .msg p{
-padding-top:5em;
-color:#fff;
-line-height:1.5em;
-width:100%;
-text-align:left;
- }
- .msg h1{
-     padding-top:1rem;
-     color:#ff6b08;
- }
- .msg a{
-     text-decoration: none;
-     color:#f32170;
-     margin-top:-6px;
-     width:100%
- }
- .msg a:hover{
-     color:white;
-     text-decoration: none;
- }
- /* /contact */
-.footer p{
-     text-align:center;
-     /* background-color:#241218; */
-     color:#fcb500;
-     padding:20px 0;
- }
- .footer{
-     background-color:#241218;
- }
-
  
+}
 
+.msg p {
  
-
-
+  color:#252934;
+  line-height: 1.5em;
+  width: 100%;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+.msg {
  
-    
+  background-color:#999792;
+  padding: 3% 0;
+}
+.msg h1 {
+  
+  padding:1.5rem 0 5rem 3rem;
+  color:#252934;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
 
+}
+.msg a {
+  display:block;
+  text-decoration: none;
+  color:#252934;
+  margin-top: -18px;
+  width: 100%;
+  padding-top:0px;
+}
+.msg a:hover {
+  color: white;
+  text-decoration: none;
+}
+/* /contact */
+.footer p {
+  text-align: center;
+
+  color:#ff6b08;
+  padding: 20px 0;
+}
+.footer {
+  background: url(http://findmatthew.com/style/../img/filler.png) center
+  center/cover;
+ 
+}
