@@ -4,10 +4,17 @@ body {
   margin: 0;
   
 }
+@media only screen and (max-width: 700px) {
+  body
+   {
+    margin:0 15px;
+  }
+}
 .head {
   padding: 2.5em;
   
 }
+
 
 .name,
 .contact {
@@ -28,7 +35,7 @@ body {
   color: #fff;
   padding:  50px 30px;
   border:3px dotted #fff;
-  background-color:#999792;
+  background-color:#defffb;
   border-radius: 50%;
 }
 .logo img{
@@ -78,20 +85,43 @@ body {
   .desc2,
   .desc1 {
     max-width: 100%;
+    padding-top:5px;
+    margin-bottom: -2px;
+    line-height: 1.2;
+  
+  }
+}
+@media only screen and (max-width: 700px) {
+  .nav-item
+   {
+    margin: 10px 0;
   }
 }
 
 /* about */
 div.self {
-  background-color:#999792;
+  background-color:#defffb;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
 }
+@media only screen and (max-width: 700px) {
+  .self
+   {
+    margin-bottom: 20 px;
+  }
+}
 
 .pic {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .pic
+   {
+    margin-top:15px;
+  }
 }
 .intro1,
 .intro2 {
@@ -104,7 +134,7 @@ div.self {
   -webkit-background-clip: text;
 }
 .about {
-  background-color:#faf7eb;
+  background-color:#fff;
 }
 .self .intro3 {
   padding: 0px 30px;
@@ -121,6 +151,7 @@ div.self {
 /* skills */
 .skills {
   background-color:#252934;
+  
 }
 .skill {
   width: 15%;
@@ -132,7 +163,7 @@ div.self {
 
 .heading {
   text-align: center;
-  color:white;
+  color:#fff;
   padding-top: 20px;
   padding-bottom: 10px;
   width:fit-content;
@@ -146,7 +177,7 @@ div.self {
   font-size:25px;
   text-transform: uppercase;
   font-family: serif;
-  padding-top:50px;
+  padding-top:25px;
   padding-bottom: 2px;
   border-bottom: 1px solid #ff6b08;
   width:fit-content;
@@ -155,8 +186,8 @@ div.self {
 }
 
 .box {
-  background-color: #252934;
-  border: 0.5px solid #252525;
+  background-color:#252934;
+  border: 0.5px solid grey;
 }
 .box:hover {
   opacity: 0.8;
@@ -183,7 +214,7 @@ div.self {
   background-color: #303543;
 }
 .media {
-  background-color:#999792 ;
+  background-color:#defffb ;
   border: #241218 solid 2px;
   width: 100%;
 }
@@ -201,8 +232,10 @@ div.self {
   width: 100%;
 }
 @media only screen and (max-width: 700px) {
-  .media-body h4,.media-body button{
+  .media-body h4{
     width:fit-content;
+    font-size:15px;
+
   }
 }
 
@@ -213,6 +246,22 @@ div.self {
   width: 50%;
   margin: 2em 0;
   height:auto;
+}
+@media only screen and (max-width: 700px) {
+  .media-body button{
+   height:fit-content;
+     width:50px;
+    padding-left:auto;
+
+  }
+}
+@media only screen and (max-width: 700px) {
+  .media-body a{
+    width:fit-content;
+    font-size:10px;
+    
+
+  }
 }
 .media-body button:hover,.media-body button:active {
   
@@ -226,6 +275,12 @@ div.self {
   padding: 10px 0;
   background-color: #252934;
   
+}
+@media only screen and (max-width: 700px) {
+  .contactrow{
+    padding-right: 0px;
+    margin-bottom: 15px;
+  }
 }
 .contactrow{
   padding-left:0px;
@@ -243,7 +298,7 @@ div.self {
   color:#252934;
   line-height: 80px;
   font-size: 30px;
-  background-color:#999792;
+  background-color:#defffb;
   position: relative;
   overflow: hidden;
 }
@@ -260,14 +315,14 @@ div.self {
   opacity: 0.9;
 }
 .socialicons .icons:hover {
-  color:#fff;
+  color:#252934;
 }
 a:hover::after {
   bottom: 0;
 }
 .contacts #contacthead{
   text-align:center;
-  color:#999792;
+  color:#fff;
   padding-top: 10%;
   padding-bottom: 50px;
   margin-bottom: -10px;
@@ -292,7 +347,7 @@ a:hover::after {
 }
 .msg {
  
-  background-color:#999792;
+  background-color:#defffb;
   padding: 3% 0;
 }
 .msg h1 {
