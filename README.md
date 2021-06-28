@@ -28,17 +28,14 @@
 
 ## Glimpses of my portfolio-
 <h2 align="center">
-	<img src="https://github.com/shiwi123/portfolio-/blob/master/screenshot(111).png" alt="portfolio" width="600px"/>
+	<img src="https://github.com/shiwi123/portfolio-/blob/master/Screenshot%20(111).png" alt="portfolio" width="600px"/>
 </h2>
 <h2 align="center">
-	<img src="https://github.com/shiwi123/portfolio-/blob/master/screenshot(112).png" alt="portfolio" width="600px"/>
+	<img src="https://github.com/shiwi123/portfolio-/blob/master/Screenshot%20(112).png" alt="portfolio" width="600px"/>
 </h2>
 
 
 
-	<img src="https://github.com/shiwi123/portfolio-/blob/master/ezgif.com-gif-maker.gif" alt="portfolio" width="600px"/>
-   </h2>
-   <br>
  
 
 ## How To Use 🔧
