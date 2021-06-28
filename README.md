@@ -31,22 +31,15 @@
 	<img src="https://github.com/shiwi123/portfolio-/blob/master/screenshot(111).png" alt="portfolio" width="600px"/>
 </h2>
 <h2 align="center">
-<<<<<<< HEAD
 	<img src="https://github.com/shiwi123/portfolio-/blob/master/screenshot(112).png" alt="portfolio" width="600px"/>
 </h2>
 
 
-=======
+
 	<img src="https://github.com/shiwi123/portfolio-/blob/master/ezgif.com-gif-maker.gif" alt="portfolio" width="600px"/>
    </h2>
    <br>
- ## Features
  
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout\
-⚡️ Styled with Bootstrap v4.3\
-⚡️ Well organized documentation 
->>>>>>> 17b77598ab7c6573412192906b006d406325fd36
 
 ## How To Use 🔧
 
@@ -63,15 +56,12 @@ $ cd portfolio
 $ git remote remove origin
 ```
 
-<<<<<<< HEAD
-=======
-- Professional way To showcase your work
-- Increases your visibility and online presence
-- Shows you’re more than just a resume
+
+
 
 
 
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](license.txt) file for details
->>>>>>> 17b77598ab7c6573412192906b006d406325fd36
+
