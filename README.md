@@ -196,5 +196,5 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](license.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/shiwi123/portfolio-/blob/master/License.txt) file for details
 
