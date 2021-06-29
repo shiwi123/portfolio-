@@ -192,7 +192,7 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## Authors
 
-- **Shiwani kumari** - [Github profile](https://github.com/shiwi)
+- **Shiwani kumari** - [Github profile](https://github.com/shiwi123)
 
 ## License 📄
 
